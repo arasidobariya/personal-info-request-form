@@ -1,10 +1,12 @@
-import FormInputs from './components/FormInputs';
+
 import './App.css';
+
+import InputOutput from './components/InputOutput';
 
 function App() {
   return (
-    <div className='App'>
-      <FormInputs />
+    <div className='App' >
+      <InputOutput/>
     </div>
   );
 }
