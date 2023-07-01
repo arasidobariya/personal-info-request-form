@@ -10,8 +10,8 @@ const PersonalInfo = ({ formData }) => {
       <Typography variant='h6' gutterBottom>
         Personal Information
       </Typography>
-      <div style={{ display: 'flex', gap: '10rem' }}>
-        <div style={{ flex: '0.7' }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={8}>
           <Grid container spacing={1}>
             <Grid item xs={8} sm={6}>
               <Typography variant='body1' gutterBottom>
@@ -104,9 +104,9 @@ const PersonalInfo = ({ formData }) => {
               </Box>
             </Grid>
           </Grid>
-        </div>
+        </Grid>
 
-        <div style={{ flex: '0.4' }}>
+        <Grid item xs={12} sm={4}>
           <Box
             sx={{
               border: 1,
@@ -118,8 +118,8 @@ const PersonalInfo = ({ formData }) => {
             image
           </Box>
           <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>signature</Box>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     </Card>
   );
 };

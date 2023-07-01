@@ -270,7 +270,7 @@ const FormInputs = (props) => {
   };
   return (
     <div>
-      <Card onSubmit={submitHandler}>
+      <Card onSubmit={submitHandler} style={{ padding: '10px' }}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6}>
             <TextField
