@@ -14,7 +14,7 @@ const Education = ({ education }) => {
       <Typography variant='h5' gutterBottom>
         Education
       </Typography>
-      <Table sx={{ minWidth: 650 }} aria-label='simple table'>
+      <Table>
         <TableHead>
           <TableRow>
             <TableCell>Degree</TableCell>

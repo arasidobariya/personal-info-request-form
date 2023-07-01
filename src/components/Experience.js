@@ -14,7 +14,7 @@ const Experience = ({ experience }) => {
       <Typography variant='h5' gutterBottom>
         Experience
       </Typography>
-      <Table sx={{ minWidth: 650 }} aria-label='simple table'>
+      <Table>
         <TableHead>
           <TableRow>
             <TableCell>Employer Name</TableCell>
