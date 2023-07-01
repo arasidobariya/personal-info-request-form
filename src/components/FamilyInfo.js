@@ -13,42 +13,42 @@ const FamilyInfo = ({ formData }) => {
             Family Information
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={6} md={2}>
           <Typography variant='body1' gutterBottom>
             Father's Name
           </Typography>
         </Grid>
-        <Grid item xs={8} sm={3}>
+        <Grid item xs={8} sm={6} md={3}>
           <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
             {formData.fatherN}
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}>
+        <Grid item xs={12} sm={6} md={3}>
           <Typography variant='body1' gutterBottom>
             Nationality
           </Typography>
         </Grid>
-        <Grid item xs={8} sm={3}>
+        <Grid item xs={8} sm={6} md={3}>
           <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
             {formData.nationality}
           </Box>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={6} md={2}>
           <Typography variant='body1' gutterBottom>
             Mother's Name
           </Typography>
         </Grid>
-        <Grid item xs={8} sm={3}>
+        <Grid item xs={8} sm={6} md={3}>
           <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
             {formData.motherN}
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}>
+        <Grid item xs={12} sm={6} md={3}>
           <Typography variant='body1' gutterBottom>
             Nationality
           </Typography>
         </Grid>
-        <Grid item xs={8} sm={3}>
+        <Grid item xs={8} sm={6} md={3}>
           <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
             {formData.nationality}
           </Box>

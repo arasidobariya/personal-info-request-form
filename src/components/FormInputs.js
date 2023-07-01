@@ -557,9 +557,12 @@ const FormInputs = (props) => {
               </Table>
             </TableContainer>
           </Grid>
-          <Grid item xs={12} sm={6} sx={{ display: 'flex' }}>
-            <Typography variant='body1' gutterBottom></Typography>
-            When did you first enter in Canada?
+          <Grid item xs={12} sm={6}>
+            <Typography variant='body1' gutterBottom>
+              When did you first enter in Canada?
+            </Typography>
+          </Grid>
+          <Grid item xs={12} sm={6}>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
               <DemoContainer
                 sx={{ padding: '0', margin: '0' }}
