@@ -14,7 +14,7 @@ const FamilyInfo = ({ formData }) => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={2}>
-          <Typography variant='body1' gutterBottom fullwidth>
+          <Typography variant='body1' gutterBottom>
             Father's Name
           </Typography>
         </Grid>
