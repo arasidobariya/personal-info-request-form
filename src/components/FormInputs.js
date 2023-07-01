@@ -27,6 +27,7 @@ import { DateField } from '@mui/x-date-pickers/DateField';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
+import { Button } from '@mui/material';
 
 const countries = ['CAD', 'IND', 'USA'];
 
@@ -594,6 +595,7 @@ const FormInputs = (props) => {
                 />
               </RadioGroup>
             </FormControl>
+            <Button type='submit'>Submit </Button>
           </Grid>
         </Grid>
       </Card>

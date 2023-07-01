@@ -14,17 +14,17 @@ const FamilyInfo = ({ formData }) => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={2}>
-          <Typography variant='body1' gutterBottom>
+          <Typography variant='body1' gutterBottom fullwidth>
             Father's Name
           </Typography>
         </Grid>
         <Grid item xs={8} sm={6} md={3}>
-          <Box sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
+          <Box fullwidth sx={{ ...commonStyles, border: 1, flex: '0.5' }}>
             {formData.fatherN}
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Typography variant='body1' gutterBottom>
+          <Typography fullwidth variant='body1' gutterBottom>
             Nationality
           </Typography>
         </Grid>
