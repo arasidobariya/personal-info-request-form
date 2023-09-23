@@ -1,43 +1,46 @@
-# Getting Started with Create React App
+# Personal Info Request Form with React and Material-UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The Personal Info Request Form is a React application built using Material-UI that allows users to fill out personal information such as name, family background, date of birth, nationality, education, experience, and marital status. The unique feature of this application is the immediate reflection of user input in a read-only form, showcasing how the state can be lifted up in a React application.
 
-In the project directory, you can run:
+### Key Features
 
-### `npm start`
+- **User-Friendly Form:** Provides a simple and user-friendly interface for entering personal information with responsive layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Real-Time Reflection:** Demonstrates the concept of lifting state up in React, where the user's input is immediately reflected in a read-only form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
+- **React:** This project is built using React, a popular JavaScript library for building user interfaces.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Material-UI:** Utilizes the Material-UI library for creating the user interface components and styling.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with this project, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `git clone https://github.com/arasidobariya/personal-info-form.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory: `cd personal-info-form`
 
-### `npm run eject`
+3. Install dependencies: `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server: `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app can be accessed in your web browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
+
+1. Fill out the personal information form with your details, including name, family background, date of birth, nationality, education, experience, and marital status.
+
+2. As you fill out the form, observe how the read-only form on the same page reflects your input in real-time.
+
+3. You can experiment with different input values and see how the read-only form updates accordingly.
+
+
+Thank you for exploring our Personal Info Request Form project. We hope it helps you understand the concept of lifting state up in React and how to create real-time interactive forms!
 
 ## Learn More
 
